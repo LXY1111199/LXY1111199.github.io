@@ -15,6 +15,10 @@ order: 4
 
 💻 GitHub: [LXY1111199 Repositories](https://github.com/LXY1111199?tab=repositories)
 
+🎓 Google Scholar: [Xiaoyue Liu](https://scholar.google.com/citations?user=b3lEVkAAAAAJ&hl=en)
+
+📝 OpenReview: [Xiaoyue Liu](https://openreview.net/profile?id=%7EXiaoyue_Liu4)
+
 📄 **CV:** [Preview PDF](/assets/files/xiaoyue_liu_cv.pdf){:target="_blank"} · [Download CV](/assets/files/xiaoyue_liu_cv.pdf){:download="xiaoyue_liu_cv.pdf"}
 
 ---
@@ -44,7 +48,6 @@ order: 4
     </ul>
   </div>
 </div>
-
 
 ## 🔬 Research Experience
 
