@@ -1,0 +1,130 @@
+html[data-mode='light'] #sidebar,
+#sidebar {
+  background: linear-gradient(180deg, #8dc2e3 0%, #8fc3e6 100%) !important;
+}
+
+/* Dark mode sidebar */
+html[data-mode='dark'] #sidebar {
+  background: #173247 !important;
+}
+
+/* Site title */
+#sidebar .site-title a,
+#sidebar .site-title {
+  color: #123c5a !important;
+  font-weight: 700;
+}
+
+/* Subtitle */
+#sidebar .site-subtitle {
+  color: #255a7a !important;
+}
+
+/* Sidebar navigation */
+#sidebar ul li.nav-item a,
+#sidebar .nav-link {
+  color: #24506d !important;
+}
+
+#sidebar ul li.nav-item a:hover,
+#sidebar .nav-link:hover {
+  color: #0f5f95 !important;
+}
+
+/* Active sidebar item */
+#sidebar ul li.nav-item.active a,
+#sidebar .nav-link.active {
+  color: #075e9a !important;
+  font-weight: 700;
+}
+
+/* Main content links */
+a {
+  color: #1f78b4;
+}
+
+a:hover {
+  color: #105c8f;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  color: #123c5a;
+}
+
+/* Compact custom avatar style */
+#avatar img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #eaf6fd !important;
+  box-shadow: 0 4px 16px rgba(31, 120, 180, 0.32);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#avatar img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 22px rgba(31, 120, 180, 0.5);
+}
+
+/* CV section cards */
+.cv-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.2rem 1.4rem;
+  margin: 1.2rem 0;
+  border: 1px solid rgba(120, 120, 120, 0.18);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
+
+.cv-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.cv-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.15rem;
+}
+
+.cv-content p {
+  margin: 0.2rem 0;
+}
+
+.cv-date {
+  color: var(--text-muted-color);
+  font-size: 0.95rem;
+}
+
+.cv-content ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+@media (max-width: 576px) {
+  .cv-card {
+    flex-direction: column;
+  }
+
+  .cv-logo {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* Hide Home tab in sidebar */
+#sidebar ul.nav li.nav-item:first-child,
+#sidebar .nav-item:first-child {
+  display: none !important;
+}
