@@ -40,7 +40,7 @@ order: 4
 <div class="cv-card">
   <div class="cv-content">
     <h3> 🌎 Vanderbilt University, United States</h3>
-    <p><strong>Exchange Student</strong></p>
+    <p><strong>Exchange Student & Research Intern </strong></p>
     <p class="cv-date">Dec 2025 – May 2026</p>
     <ul>
       <li>Overall GPA: 3.74/4.0</li>
@@ -65,7 +65,7 @@ order: 4
 <div class="cv-card">
   <div class="cv-content">
     <p><strong>Vanderbilt University</strong></p>
-    <p class="cv-date">Dec 2025 – May 2026</p>
+    <p class="cv-date">Dec 2025 – July 2026</p>
     <ul>
       <li>Developed pipelines for eye CT and MRI analysis, including optic nerve segmentation and evaluation.</li>
       <li>Assisted in automated anatomical and topological quality assessment for the optic nerve.</li>
