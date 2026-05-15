@@ -81,6 +81,8 @@ order: 4
 
 **Title: CineMesh4D: Personalized 4D Whole Heart Reconstruction from Sparse Cine MRI**
 
+[[arXiv](https://arxiv.org/abs/2605.13994)]
+
 - Proposed an end-to-end 3D+t whole-heart mesh reconstruction framework from sparse multi-view cine MRI.
 - Introduced differentiable rendering loss and dual-context temporal modeling for accurate and temporally coherent cardiac reconstruction.
 
@@ -89,6 +91,8 @@ order: 4
 **Individual First-author oral presentation**
 
 Title: Personalized 4D Whole Heart Geometry Reconstruction from Cine MRI for Cardiac Digital Twins
+
+[[Paper](https://arxiv.org/pdf/2507.15203)]
 
 - Proposed the first weakly supervised framework to reconstruct 3D+t heart surface meshes from cine MRI for digital twins.
 - Enabled accurate reconstruction of whole-heart anatomy and motion for automatic extraction of key cardiac indices.
